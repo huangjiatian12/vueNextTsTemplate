@@ -1,0 +1,29 @@
+{
+  "name": "web-dongchen",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.0",
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.24.0",
+    "lib-flexible": "^0.3.2",
+    "path": "^0.12.7",
+    "postcss-pxtorem": "^6.0.0",
+    "vant": "3",
+    "vconsole": "3.9.1",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vite-plugin-style-import": "^1.4.0",
+    "vue-tsc": "^0.29.8"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/logo.ico" />
+  <!-- <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit=cover"> -->
+  <!-- 开启顶部安全区适配 -->
+  <van-nav-bar safe-area-inset-top />
+
+  <!-- 开启底部安全区适配 -->
+  <van-number-keyboard safe-area-inset-bottom />
+  <title>浙江东陈</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
+
+<style>
+  body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: constant(safe-area-inset-bottom);
+    /* 兼容 iOS < 11.2 */
+    padding-bottom: env(safe-area-inset-bottom);
+    /* 兼容 iOS >= 11.2 */
+
+    /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+    -ms-overflow-style: none;
+    /*火狐下隐藏滚动条*/
+    overflow: -moz-scrollbars-none;
+  }
+</style>
