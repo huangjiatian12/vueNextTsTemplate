@@ -13,7 +13,8 @@ vant
 
 ```shell
 
-yarn or npm install
+yarn
+npm install
 
 yarn dev or npm run dev
 ```
