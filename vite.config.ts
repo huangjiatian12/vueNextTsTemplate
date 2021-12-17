@@ -36,7 +36,7 @@ export default defineConfig({
     // ssr: false,
     proxy: {
       // "/api": {
-      //   target: "http://lxsh.case.nbyuyuan.com",
+      //   target: "",
       //   changeOrigin: true,
       //   ws: true,
       //   rewrite: (pathStr) => pathStr.replace("/api", ""),
